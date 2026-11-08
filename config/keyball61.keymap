@@ -81,7 +81,7 @@
 &trans  &trans    &trans        &trans           &trans  &trans                         &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans    &kp UP_ARROW  &trans           &trans  &trans                         &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &trans  &mkp RCLK                      &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
-&trans  &trans    &trans        &trans           &trans  &kp LSHIFT  &mkp MCLK  &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans    &trans        &trans           &trans  &kp LSHIFT  &mkp MCLK  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
 &trans  &trans    &trans        &kp LEFT_ALT     &to 0   &kp LCTRL   &mkp LCLK  &trans  &trans                                   &trans  &trans
             >;
         };
