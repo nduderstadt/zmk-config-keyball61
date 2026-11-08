@@ -43,11 +43,11 @@
 
         number_layer {
             bindings = <
-&trans  &kp N1    &kp N2        &kp N3           &kp N4  &kp N5                     &kp N6           &kp N7           &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_SUBTRACT  &kp BACKSPACE
-&trans  &trans    &kp UP_ARROW  &trans           &trans  &trans                     &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp DELETE
-&trans  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &trans  &trans                     &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans           &trans
-&trans  &trans    &trans        &trans           &trans  &trans  &trans  &kp ENTER  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &trans
-&trans  &trans    &trans        &trans           &trans  &trans  &trans  &trans     &kp KP_DOT                                                          &kp HOME         &kp END
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &trans  &trans                     &trans           &trans           &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_SUBTRACT  &kp BACKSPACE
+&trans  &trans        &kp UP_ARROW  &trans           &trans  &trans                     &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp DELETE
+&trans  &kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &trans  &trans                     &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans           &trans
+&trans  &trans        &trans        &trans           &trans  &trans  &trans  &kp ENTER  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &trans
+&trans  &trans        &trans        &trans           &trans  &trans  &trans  &trans     &kp KP_DOT                                                          &kp HOME         &kp END
             >;
 
             label = "NUM";
