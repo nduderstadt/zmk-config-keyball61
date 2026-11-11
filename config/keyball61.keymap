@@ -1,6 +1,6 @@
 #define DEFAULT 0
-#define MOUSE   3
 #define SYM     1
+#define MOUSE   3
 #define NUM     4
 #define FUN     2
 #define SCROLL  5
@@ -56,20 +56,9 @@
             bindings = <
 &trans  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &trans  &trans                     &trans           &trans           &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_SUBTRACT  &kp BACKSPACE
 &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans                     &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp DELETE
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &trans  &trans                     &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans           &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans                     &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans           &trans
 &trans  &trans          &trans          &trans           &trans  &trans  &trans  &kp ENTER  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &trans
 &trans  &trans          &trans          &trans           &trans  &trans  &trans  &trans     &kp KP_DOT                                                          &kp HOME         &kp END
-            >;
-        };
-
-        mouse_layer {
-            label = "MOUSE";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
         function_layer {
@@ -82,6 +71,17 @@
 &trans    &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans                          &kp HOME     &kp END
             >;
         };
+        mouse_layer {
+            label = "MOUSE";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+            >;
+        };
+
 
         scroll_layer {
             label = "SCROLL";
